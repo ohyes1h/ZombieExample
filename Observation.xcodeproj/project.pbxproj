@@ -13,6 +13,8 @@
 		8323AA2226D3888000C01C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323AA2026D3888000C01C33 /* Main.storyboard */; };
 		8323AA2426D3888100C01C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8323AA2326D3888100C01C33 /* Assets.xcassets */; };
 		8323AA2726D3888100C01C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323AA2526D3888100C01C33 /* LaunchScreen.storyboard */; };
+		8323AA2F26D38A0300C01C33 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323AA2E26D38A0300C01C33 /* Connector.swift */; };
+		8323AA3126D38B9400C01C33 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323AA3026D38B9400C01C33 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8323AA2326D3888100C01C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8323AA2626D3888100C01C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8323AA2826D3888100C01C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323AA2E26D38A0300C01C33 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		8323AA3026D38B9400C01C33 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				8323AA1A26D3888000C01C33 /* AppDelegate.swift */,
 				8323AA1C26D3888000C01C33 /* SceneDelegate.swift */,
 				8323AA1E26D3888000C01C33 /* ViewController.swift */,
+				8323AA3026D38B9400C01C33 /* DetailViewController.swift */,
+				8323AA2E26D38A0300C01C33 /* Connector.swift */,
 				8323AA2026D3888000C01C33 /* Main.storyboard */,
 				8323AA2326D3888100C01C33 /* Assets.xcassets */,
 				8323AA2526D3888100C01C33 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8323AA1F26D3888000C01C33 /* ViewController.swift in Sources */,
+				8323AA2F26D38A0300C01C33 /* Connector.swift in Sources */,
+				8323AA3126D38B9400C01C33 /* DetailViewController.swift in Sources */,
 				8323AA1B26D3888000C01C33 /* AppDelegate.swift in Sources */,
 				8323AA1D26D3888000C01C33 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gogoro.Observation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ohyes1h.Observation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +320,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gogoro.Observation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ohyes1h.Observation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
